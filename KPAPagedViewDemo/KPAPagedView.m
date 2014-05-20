@@ -30,7 +30,6 @@
     self.viewUpdateBlock = nil;
     self.viewLoadBlock = nil;
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-    NSLog(@"dealloced paged");
 }
 
 - (instancetype)initWithFrame:(CGRect)frame withNumberOfPages:(NSUInteger)pageNum andViewLoadingBlock:(KPAPagedViewLoadViewblock)block {
