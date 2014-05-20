@@ -1,6 +1,8 @@
 KPAPagedView
 ============
 
-Just a basic view to make paged UIScrollView easier.
+Just a basic view to make paged UIScrollView's easier.
+
+100% block based, and automatically clears unused memory.
 
 ![alt tag](https://raw.githubusercontent.com/Pearapps/KPAPagedView/master/screenshot.png)
